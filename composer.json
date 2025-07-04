@@ -5,6 +5,9 @@
     "version": "6.0.0",
     "license": "MIT",
     "require": {
+        "php": ">=8.0.0",
+        "ext-json": "*",
+        "shopware/storefront": "*",
         "shopware/core": "~6.7.0"
     },
     "extra": {
