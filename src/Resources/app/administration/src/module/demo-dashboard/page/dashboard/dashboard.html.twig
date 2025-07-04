@@ -1,0 +1,14 @@
+{% block dashboard_main %}
+    <sw-page class="dashboard">
+        <template v-slot:content>
+            <sw-card-view>
+                <sw-card :title="$tc('title')">
+                    <sw-container columns="1fr 1fr" gap="0px 30px">
+                        <sw-highlight-text :text="$tc('highlightText')">
+                        </sw-highlight-text>
+                    </sw-container>
+                </sw-card>
+            </sw-card-view>
+        </template>
+    </sw-page>
+{% endblock %}

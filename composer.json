@@ -1,0 +1,27 @@
+{
+    "name": "demo-plugin/demo-plugin",
+    "description": "demo-plugin/demo-plugin",
+    "type": "shopware-platform-plugin",
+    "version": "6.0.0",
+    "license": "MIT",
+    "require": {
+        "shopware/core": "~6.7.0"
+    },
+    "extra": {
+        "shopware-plugin-class": "DemoPlugin\\DemoPlugin",
+        "label": {
+            "de-DE": "Demo Plugin",
+            "en-GB": "Demo Plugin"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "DemoPlugin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DemoPlugin\\Tests\\": "tests/"
+        }
+    }
+}

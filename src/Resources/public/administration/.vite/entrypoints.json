@@ -1,0 +1,23 @@
+{
+  "base": "/bundles/demoplugin/administration/",
+  "entryPoints": {
+    "demo-plugin": {
+      "css": [],
+      "dynamic": [],
+      "js": [
+        "/bundles/demoplugin/administration/assets/demo-plugin-Dm0yZmS-.js"
+      ],
+      "legacy": false,
+      "preload": []
+    }
+  },
+  "legacy": false,
+  "metadatas": {},
+  "version": [
+    "7.1.0",
+    7,
+    1,
+    0
+  ],
+  "viteServer": null
+}
