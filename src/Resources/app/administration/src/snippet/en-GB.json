@@ -3,5 +3,12 @@
     "demoDashboard": "Demo Dashboard",
     "composerDemo": "Composer Demo",
     "title": "Ich bin ein Titel",
-    "highlightText": "Ich bin ein Bug"
+    "highlightText": "Ich bin ein Bug",
+    "testButton": "Test me",
+    "demo-button": {
+        "title": "Demo Test",
+        "success": "Connection successfully tested",
+        "error": "Connection could not be established. Please check the access data",
+        "button": "Start connection test"
+    }
 }

@@ -6,6 +6,12 @@
     <card>
         <title>Minimal configuration</title>
 
+        <component name="demo-button">
+            <name>apiTest</name>
+            <label>Test API connection</label>
+            <label lang="de-DE">API Verbindung testen</label>
+            <helpText>Geprüft werden die gespeicherten (!) Verbindungsparameter</helpText>
+        </component>
         <input-field type="text">
             <name>textField</name>
             <label>Test field with default value</label>

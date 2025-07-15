@@ -1,0 +1,8 @@
+<div class="sw-field sw-block-field sw-field--default">
+    <sw-button-process
+        :isLoading="isLoading"
+        :processSuccess="isSaveSuccessful"
+        @process-finish="saveFinish"
+        @click="check"
+    >{{ $tc('testButton') }}</sw-button-process>
+</div>
