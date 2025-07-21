@@ -2,7 +2,7 @@
     "name": "symbionet/demo-plugin",
     "description": "symbionet/demo-plugin",
     "type": "shopware-platform-plugin",
-    "version": "6.0.0",
+    "version": "6.2.0",
     "license": "MIT",
     "require": {
         "php": ">=8.0.0",
