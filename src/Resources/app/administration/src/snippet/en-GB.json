@@ -3,7 +3,7 @@
     "demoDashboard": "Demo Dashboard",
     "composerDemo": "Composer Demo",
     "title": "Ich bin ein Titel",
-    "highlightText": "Ich bin ein Bug",
+    "highlightText": "Ich bin ein Bug, der gefixt wurde",
     "testButton": "Test me",
     "demo-button": {
         "title": "Demo Test",
