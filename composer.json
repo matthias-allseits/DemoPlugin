@@ -2,13 +2,13 @@
     "name": "symbionet/demo-plugin",
     "description": "symbionet/demo-plugin",
     "type": "shopware-platform-plugin",
-    "version": "6.2.0",
+    "version": "6.1.0",
     "license": "MIT",
     "require": {
         "php": ">=8.0.0",
         "ext-json": "*",
         "shopware/storefront": "*",
-        "shopware/core": "~6.7.0"
+        "shopware/core": "^6.6.11"
     },
     "extra": {
         "shopware-plugin-class": "DemoPlugin\\DemoPlugin",
