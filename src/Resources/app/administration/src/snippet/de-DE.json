@@ -10,5 +10,8 @@
         "success": "Verbindung wurde erfolgreich getestet",
         "error": "Verbindung konnte nicht hergestellt werden. Bitte prüfe die Zugangsdaten",
         "button": "Verbindungstest starten"
+    },
+    "process-button": {
+        "label": "Process Button Label"
     }
 }

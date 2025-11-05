@@ -8,7 +8,7 @@
         "php": ">=8.0.0",
         "ext-json": "*",
         "shopware/storefront": "*",
-        "shopware/core": "<6.7"
+        "shopware/core": "^6.6"
     },
     "extra": {
         "shopware-plugin-class": "DemoPlugin\\DemoPlugin",

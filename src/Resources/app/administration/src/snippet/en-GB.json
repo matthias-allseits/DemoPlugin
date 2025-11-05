@@ -10,5 +10,8 @@
         "success": "Connection successfully tested",
         "error": "Connection could not be established. Please check the access data",
         "button": "Start connection test"
+    },
+    "process-button": {
+        "label": "Process Button Label"
     }
 }

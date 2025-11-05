@@ -11,8 +11,14 @@ Component.register('dashboard', {
     
     data() {
         return {
-            isLoading: false,
+            isLoading: true,
         };
+    },
+
+    created() {
+        setTimeout(() => {
+            this.isLoading = false;
+        }, 5000);
     },
 
     methods: {

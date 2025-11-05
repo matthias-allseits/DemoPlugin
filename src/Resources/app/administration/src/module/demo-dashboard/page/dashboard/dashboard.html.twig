@@ -8,6 +8,14 @@
                         </sw-highlight-text>
                     </sw-container>
                 </sw-card>
+                <sw-card>
+                    <div class="sw-field sw-block-field sw-field--default into-reset-order-button">
+                        <sw-button-process
+                                variant="danger"
+                                :isLoading="isLoading"
+                        >{{ $tc('process-button.label') }}</sw-button-process>
+                    </div>
+                </sw-card>
             </sw-card-view>
         </template>
     </sw-page>
